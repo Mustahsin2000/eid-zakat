@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.05),#009688), url(images/pic-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.banner-text{
+    text-align: left;
+    color: #fff;
+    padding-top: 200px;
+    padding-left: 130px;
+}
+.banner-text h1{
+    font-size: 80px;
+}
+.banner-text p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.banner-text a{
+    background-image:  linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+}
+.banner-text a:hover{
+    background-color: #009688;
+}
+.banner-text h1 span{
+    
+}
+
+
+/*part-2*/
+
+#second{
+    display: flex;
+    padding: 50px;
+}
+.second-2nd{
+    margin-left: 100px;
+}
+.second-1st{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.second-1st h1{
+    font-size: 40px;
+}
+.second-1st p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.second-1st span{
+    color: #009688;
+}
+.second-1st a{
+    background-image:  linear-gradient(to left, rgba(255,0,0,0), #009688);
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 800;
+    color: white;
+    border: 3px solid #009688;
+}
+.second-2nd iframe{
+    border-radius: 5px;
+}
+
+/*part-3*/
+
+#third{
+    display: flex;
+}
+.third-1st{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.third-2nd{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.third-2nd h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.third-2nd p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 85%;
+}
+.third-2nd a{
+    background-image:  linear-gradient(to left, rgba(255,0,0,0), #009688);
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 800;
+    color: white;
+    border: 3px solid #009688;
+}
+.third-1st img{
+    border-radius: 4px;
+}
+
+/*part-4*/
+
+
+
+#fourth h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.fourth-peragraph{
+    text-align: center;
+    color:grey;
+}
+.box-section-1 .direct-help-1{
+    padding: 30px 50px;
+    background-color:linen ;
+}
+.box-section-1 .direct-help-2{
+    padding: 30px 50px;
+    background-color:linen ;
+}
+.box-section-1{
+    display: flex;
+    width: 100%;
+}
+.direct-help-1{
+    margin: 30px 60px;
+}
+.direct-help-2{
+    margin: 30px 60px;
+}
+
+.box-section-2 .direct-help-3{
+    padding: 30px 50px;
+    background-color:linen ;
+}
+.box-section-2 .direct-help-4{
+    padding: 30px 50px;
+    background-color:linen ;
+}
+.box-section-2{
+    display: flex;
+    width: 100%;
+}
+.direct-help-3{
+    margin: 30px 60px;
+}
+.direct-help-4{
+    margin: 30px 60px;
+}
+
+
+/*part-5*/
+
+#five{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 10px 20px;
+}
+#five .img-1{
+    margin: 10px 15px;
+    border-radius: 5px;
+}
+#five .img-2{
+    margin: 10px 15px;
+    border-radius: 5px;
+}
+#five .img-3 {
+    margin: 10px 15px;
+    border-radius: 5px;
+}
+
+/*part-6*/
+
+#six h1{
+   text-align: center;
+   font-size: 40px;
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+.six-pera{
+    text-align: center;
+    color: gray;
+    margin-bottom: 40px;
+}
+.six-zakat{
+    display: flex;
+    width: 100%;
+}
+.zakat-fund{
+    width: 33.33%;
+    margin: 10px 60px;
+    border: 1px solid whitesmoke;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 6px;
+}
+.zakat-fund h3{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.zakat-fund p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: grey;
+}
+.zakat-fund a{
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+.zakat-fund img{
+    width: 100%;
+    border-radius: 6px;
+}
+.fund-text{
+    padding:  20px
+}
+
+/*footer*/
+footer{
+    background-color: #009688;
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+footer h1{
+    text-align: center;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer p{
+    text-align: center;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
